@@ -1,0 +1,58 @@
+.name_new_project,
+.rename_new_project,
+.save_project,
+.save_scheme {
+    width: 379px;
+    height: 217px;
+    border-radius: 12px;
+    background-color: #2F2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.heading_new_project_name_and_text,
+.heading_new_project_rename_and_text,
+.heading_save_project_text,
+.heading_save_scheme_text {
+    font-size: 16px;
+    color: #CAC4D0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.save_new_project_name,
+.save_new_project_rename,
+.save_project_button,
+.save_scheme_button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 60px 0 0;
+}
+
+.delete_project {
+    width: 471px;
+    height: 199px;
+    border-radius: 12px;
+    background-color: #5D566B;
+    color: #CAC4D0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.heading_delete_project{
+    text-align: center;
+}
+
+.yes_no_buttons {
+    display: flex;
+    gap: 50px;
+}
+

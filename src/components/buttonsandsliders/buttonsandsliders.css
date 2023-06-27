@@ -1,0 +1,145 @@
+.home_button {
+    width: 31px;
+    height: 31px;
+    border-radius: 24px;
+    background-color: #2F2F2F;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.download_button {
+    width: 31px;
+    height: 31px;
+    border-radius: 24px;
+    background-color: #2F2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 1px rgb(53, 52, 52));
+}
+
+.upload_button {
+    width: 116px;
+    height: 56px;
+    background-color: #403F40;
+    color: #CAC4D0;
+    border-radius: 0 100px 100px 0;
+    font-size: 14px;
+} 
+
+.contrast_button {
+    width: 122px;
+    height: 56px;
+    border-radius: 100px;
+    background-color: #4A4458;
+    color: #E8DEF8;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contrast_range_button {
+    width: 155px;
+    height: 56px;
+    background-color: #403F40;
+    color: #CAC4D0;
+    border-radius: 100px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.noise_button {
+    width: 114px;
+    height: 52px;
+    background-color: #403F40;
+    color: #CAC4D0;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blur_button {
+    width: 114px;
+    height: 52px;
+    background-color: #403F40;
+    color: #CAC4D0;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.scheme_all_hundred_button {
+    width: 155px;
+    height: 68px;
+    border-radius: 100px;
+    background-color: #4A4458;
+    color: #CAC4D0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.connect_button {
+    width: 92px;
+    height: 26px;
+    color: #BB86FC;
+    background-color: #3A3442;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.remove_connect_button {
+    width: 99px;
+    height: 26px;
+    color: #BB86FC;
+    background-color: #3A3442;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.trash_button {
+    width: 99px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #3A3442;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insert_node_button {
+    width: 122px;
+    height: 56px;
+    border: #BB86FC dotted 2px;
+    border-radius: 100px;
+    color: #CAC4D0;
+}
+
+.save_button {
+    width: 99px;
+    height: 31px;
+    border-radius: 100px;
+    background-color: #3A3442;
+    color: #BB86FC;
+    font-size: 12px;
+}
+
+.yes_button {
+    width: 99px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #D0BCFF;
+    color: #381E72;
+}
+
+.reject_button {
+    width: 99px;
+    height: 40px;
+    border-radius: 100px;
+    color: #D0BCFF;
+    background-color: transparent;
+    border: 1px solid #938F99 ;
+}

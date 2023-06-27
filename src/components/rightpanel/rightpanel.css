@@ -1,0 +1,40 @@
+.right_panel {
+    box-sizing: border-box;
+    width: 119px;
+    height: 390px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    background-color: #2e2e2e;
+}
+
+.top_container_right_panel {
+    padding: 3px 3px 0 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.middle_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+    flex-wrap: nowrap;
+}
+
+.knob_container {
+    width: 100%;
+   display: flex;
+   padding: 3px 5px 10px 10px;
+   flex-direction: column;
+}
+
+.img_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+

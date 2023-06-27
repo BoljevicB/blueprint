@@ -1,0 +1,79 @@
+.modulescreen {
+    width: 844px;
+    height: 390px;
+    background-color: #292929;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 120px 604px 120px;
+    grid-template-rows: 50px 240px 85px;
+    grid-template-areas: 'module_left_panel module_top_buttons module_right_button_panel'
+                         'module_left_panel module_middle_buttons module_right_button_panel'
+                         'module_left_panel module_bottom_buttons module_right_button_panel';
+}
+
+.module_left_panel {
+    grid-area: module_left_panel;
+}
+.module_top_buttons {
+    grid-area: module_top_buttons;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.module_change_img_heading {
+    color: #CAC4D0;
+    padding-left: 80px;
+}
+
+.module_play_download {
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+}
+
+.module_middle_buttons {
+    grid-area: module_middle_buttons;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+}
+
+.module_contrast_scale_button {
+   position: relative;
+   top: 60px;
+   
+   
+}
+
+.module_bottom_buttons {
+    grid-area: module_bottom_buttons;
+    display: flex;
+   align-items: flex-end;
+   justify-content: space-evenly;
+   gap: 40px;
+}
+
+.module_connect_remove_connect_buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.module_right_panel {
+    grid-area: module_right_button_panel;
+}
+
+
+  *::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #979797;
+    border-radius: 2px;
+  }
+
+  
